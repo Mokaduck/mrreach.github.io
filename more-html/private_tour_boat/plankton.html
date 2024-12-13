@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Tour Boat</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../style/index.css">
+    <link rel="stylesheet" href="../private_tour_boat/snorkelling.css">
+    <link rel="icon" type="image/x-icon" href="../../image/logo_mrreach.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../../image/logo_mrreach.png" alt="Ministry of Information Logo">
+        </div>
+        <div class="contact-info">
+            <div class="social-icons">
+                <p><a href="mailto:mrreachtourservice@gmail.com">mrreachtourservice@gmail.com</a></p>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <p><i class='bx bx-phone'></i> +855 123 456 78</p>
+            <p>+855 124 567 89</p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="nav-item"><a href="#"><b>Home</b></a></li>
+            <li class="nav-item active"><a href="../../index.html"><b>Private Tour Boat</b></a></li>
+            <li class="nav-item"><a href="#"><b>Tour Sharing Boat</b></a></li>
+            <li class="nav-item"><a href="#"><b>Taxi Boat</b></a></li>
+        </ul>
+        <div class="search"> <i class='bx bx-search' id="search-icon"></i> </div>
+        <div class="search-box" id="search-box">
+            <input type="search" placeholder="Search...">
+            <i class='bx bx-x' id="close-icon"></i>
+        </div>
+    </nav>
+    <div class="container">
+        <section>
+            <img src="../../image/pic 1.jpg" alt="Boat for snorkeling tour">
+            <div class="carousel">
+                <div class="carousel-inner" id="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../../image/Private_tour_boat_img/fishing/1.jpg" alt="fishing">
+                        <!-- <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                        </div> -->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../image/Private_tour_boat_img/snorkelingimg/snorkelling4.jpg" alt="snrokelling">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../image/Private_tour_boat_img/sunset/3.avif" alt="snrokelling">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../image/Private_tour_boat_img/23village/23village.jpg" alt="23village">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../image/Private_tour_boat_img/sunset/2.webp" alt="sunset">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../image/Private_tour_boat_img/plankton/1.jpg" alt="plankton">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" onclick="moveSlide(-1)"><i class='bx bxs-left-arrow'></i></button>
+                <button class="carousel-control-next" onclick="moveSlide(1)"><i class='bx bxs-right-arrow'></i></button>
+            </div>
+            <!-- <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62751.07187381995!2d103.26787841400757!3d10.583708475583192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107eede3706b249%3A0xf4bc7be5df0f6e74!2sKoh%20Rong%20Sanloem!5e0!3m2!1sen!2skh!4v1732979018635!5m2!1sen!2skh"
+                    width="300" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+        </section>
+        <main>
+            <!-- <div class="snorkelling">
+                <p>SNORKELLING <a href="#"><i class='bx bx-time-five'></i></a></p>
+            </div> -->
+            <div class="phoptos-video">
+                <a href="../../index.html" class="photo-video-items"><i class='bx bx-arrow-back bx-tada'></i></a>
+                <a href="#" class="photo-video-items in-active">Image <i class='bx bx-images'></i></a>
+                <a href="#" class="photo-video-items">Video <i class='bx bxs-videos'></i></a>
+            </div>
+            <!-- ================================================================================ -->
+            <div class="all-image">
+
+                <div class="gallery">
+                    <img src="../../image/Private_tour_boat_img/plankton/1.jpg" alt="plankton" width="600" height="400">
+                    <img src="../../image/Private_tour_boat_img/plankton/plankton.jpg" alt="plankton" width="600" height="400">
+                </div>
+
+                <div class="modal">
+                    <span class="close"><i class='bx bx-x'></i></span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    <a href="#" id="prev"><i class='bx bx-chevron-left'></i></a>
+                    <a href="#" id="next"><i class='bx bx-chevron-right'></i></a>
+                </div>
+            </div>
+            <!-- ================================================================================ -->
+        </main>
+        <aside>
+            <img src="../../image/map.jpg" alt="Map of Koh Rong Sanloem">
+        </aside>
+    </div>
+    <div class="whatapp-link">
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-e2f4cca7-5cb3-49a0-98a7-beb8bf751063" data-elfsight-app-lazy></div>
+    </div>
+    <footer class="footer">
+        <div class="cont">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>MR REACH</h4>
+                    <ul>
+                        <li><a href="./footer/about.html">about us</a></li>
+                        <li><a href="./footer/privacy.html">privacy policy</a></li>
+                        <li><a href="./footer/privacy.html">mrreachtourservice@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online booking</h4>
+                    <ul>
+                        <li><a href="./premium/premium.html">Private Tour Boat</a></li>
+                        <li><a href="./premium/premium.html">Tour Sharing Boat</a></li>
+                        <li><a href="./premium/premium.html">Taxi Boat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>contact</h4>
+                    <div class="social-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../../js/index.js"></script>
+    <script src="../private_tour_boat/snorkelling.js"></script>
+</body>
+
+</html>
